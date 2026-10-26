@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* ______________heder____________ */
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 27px 60px;
+}
+nav {
+  display: flex;
+  gap: 33px;
+}
+a {
+  text-decoration: none;
+  font-family: Heebo;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+/* ________________section-1_____________ */
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+.baby-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  h1 {
+    font-family: Heebo;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+  }
+  p {
+    font-family: Heebo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  button {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 100, 100, 1);
+    padding: 9px 20px;
+    border-radius: 2px;
+    border: none;
+  }
+}
+.img {
+  width: 300px;
+  height: 250px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* ______________section-2______________ */
+#section-2 {
+  background: rgba(237, 247, 250, 1);
+  padding: 33px 0px;
+  margin-top: 71px;
+  margin-bottom: 35px;
+}
+
+.section-2 {
+  display: flex;
+  gap: 40px;
+  div {
+    flex-grow: 1;
+    margin-top: 22px;
+    border-radius: 4px;
+  }
+}
+.posts {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+
+  h3 {
+    font-family: Heebo;
+    font-weight: 700;
+    font-size: 26px;
+  }
+  p {
+    font-family: Heebo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+.v {
+  color: rgba(0, 168, 204, 1);
+  font-family: Heebo;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+}
+
+/* _________________section-3________________ */
+
+.kard {
+  display: flex;
+  gap: 18px;
+  margin-top: 22px;
+}
+.style {
+  font-family: Heebo;
+  font-weight: 700;
+  font-size: 30px;
+}
+#dizain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  p {
+    font-family: Heebo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+  }
+}
+.dash {
+  font-family: Heebo;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(134, 149, 164, 1);
+}
+.spa {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  p {
+    font-family: Heebo;
+    font-weight: 400;
+    font-size: 22px;
+  }
+}
+/* _________________foter________________ */
+
+.section-4{
+ padding: 54px 0px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+  gap: 30px;
+  div{
+    display: flex;
+    gap: 30px;
+  }
+}
+.footer{
+ 
+}
